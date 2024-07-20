@@ -78,3 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+document.querySelector('.genres-card').addEventListener('click', function() {
+    this.classList.toggle('active');
+});
